@@ -1,8 +1,25 @@
 aid: mendaera
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mendaera.png
 name: Mendaera
-description: 'Mendaera is a company surfaced as a portfolio company of threshold-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Mendaera is a healthcare robotics company building the Focalist handheld
+  robotic system, which combines robotics, real-time ultrasound imaging, and software
+  to guide needle-based medical procedures with greater precision and consistency.
+  The FDA-cleared platform is preparing for broad commercial launch in 2026. Mendaera
+  is backed by Lux Capital, Threshold Ventures, Founders Fund, PFM Health Sciences,
+  and Puma Venture Capital. The company is focused on medical devices rather than a
+  developer-facing platform; as of this profile it publishes no public API, developer
+  portal, SDK, or technical documentation surface.'
 url: https://raw.githubusercontent.com/api-evangelist/mendaera/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Healthcare
+- Robotics
+- Medical Devices
+- Ultrasound
+- Surgery
+- Medtech
+- Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/mendaera-domain-security.yml
 - type: Website
   url: https://www.mendaera.com/
+- type: About
+  url: https://www.mendaera.com/about
+- type: Blog
+  url: https://www.mendaera.com/news
+- type: Careers
+  url: https://www.mendaera.com/careers
+- type: PrivacyPolicy
+  url: https://www.mendaera.com/privacy-policy
+- type: TermsOfService
+  url: https://www.mendaera.com/terms-of-use
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
